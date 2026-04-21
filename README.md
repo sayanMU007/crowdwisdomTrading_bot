@@ -1,7 +1,10 @@
 # CrowdWisdomTrading — Crypto Prediction Agent
 
 A multi-agent Python pipeline: Polymarket + Kalshi search, Apify OHLCV data,
-Kronos-style directional prediction, Kelly position sizing, and Hermes feedback loop.
+Kronos-style directional prediction, Kelly position sizing, and Hermes feedback loop.<img width="986" height="362" alt="Screenshot 2026-04-21 151820" src="https://github.com/user-attachments/assets/58695495-4627-45f7-b794-ced95428bd30" />
+<img width="1371" height="618" alt="Screenshot 2026-04-21 151808" src="https://github.com/user-attachments/assets/adb48c72-1c7b-4dd1-8263-338ab98b8fab" />
+<img width="1787" height="813" alt="Screenshot 2026-04-21 151631" src="https://github.com/user-attachments/assets/212fd2f4-c698-4973-876d-dfb1fe771c57" />
+
 
 ## Quick Start (Windows / VS Code Terminal)
 
@@ -30,7 +33,7 @@ python dashboard.py
 
 | Variable | Where to get it |
 |---|---|
-| `OPENROUTER_API_KEY` | https://openrouter.ai (free) |
+| `GROQ_API_KEY` | 
 | `APIFY_TOKEN` | https://apify.com → Settings → Integrations (free) |
 
 ## Architecture
@@ -47,3 +50,6 @@ python dashboard.py
 - Cross-timeframe arbitrage is built-in (5m vs 15m)
 - `scheduler.py` runs unattended every 5 minutes
 - `dashboard.py` shows a live web UI
+
+
+## Live Working
