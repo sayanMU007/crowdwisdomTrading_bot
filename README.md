@@ -33,7 +33,7 @@ python dashboard.py
 
 | Variable | Where to get it |
 |---|---|
-| `GROQ_API_KEY` | 
+| `GROQ_API_KEY` | https://console.groq.com
 | `APIFY_TOKEN` | https://apify.com → Settings → Integrations (free) |
 
 ## Architecture
