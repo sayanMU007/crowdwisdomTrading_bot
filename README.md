@@ -1,5 +1,8 @@
 # CrowdWisdomTrading — Crypto Prediction Agent
 
+## Live Working
+
+
 A multi-agent Python pipeline: Polymarket + Kalshi search, Apify OHLCV data,
 Kronos-style directional prediction, Kelly position sizing, and Hermes feedback loop.<img width="986" height="362" alt="Screenshot 2026-04-21 151820" src="https://github.com/user-attachments/assets/58695495-4627-45f7-b794-ced95428bd30" />
 <img width="1371" height="618" alt="Screenshot 2026-04-21 151808" src="https://github.com/user-attachments/assets/adb48c72-1c7b-4dd1-8263-338ab98b8fab" />
@@ -52,4 +55,3 @@ python dashboard.py
 - `dashboard.py` shows a live web UI
 
 
-## Live Working
