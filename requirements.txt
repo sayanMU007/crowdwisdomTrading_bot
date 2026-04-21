@@ -1,0 +1,10 @@
+hermes-agent @ git+https://github.com/NousResearch/hermes-agent.git
+requests
+python-dotenv
+apify-client
+pandas
+numpy
+loguru
+schedule
+fastapi
+uvicorn

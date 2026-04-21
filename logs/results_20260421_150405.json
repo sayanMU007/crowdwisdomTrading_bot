@@ -1,0 +1,602 @@
+{
+  "timestamp": "2026-04-21T15:04:05.833928",
+  "results": [
+    {
+      "asset": "BTC",
+      "timestamp": "2026-04-21T15:04:13.172850",
+      "market_summary": {
+        "asset": "BTC",
+        "polymarket": {
+          "asset": "BTC",
+          "markets": [
+            {
+              "enable_order_book": false,
+              "active": true,
+              "closed": true,
+              "archived": false,
+              "accepting_orders": false,
+              "accepting_order_timestamp": null,
+              "minimum_order_size": 15,
+              "minimum_tick_size": 0.01,
+              "condition_id": "0xebc2c693e0b225d75cebe4695b10a23c618015668dfa7830e4bf52fa6a685798",
+              "question_id": "0xaab172ab3136837e240c8db475f4d10776271c3ca5bdb0b0653e033f730c9da7",
+              "question": "Will $BTC reach $17000 by January 4?",
+              "description": "This market will resolve to \u201cYes\u201d if any Binance 1 minute BTC/USDT candle titled with a date between 2022/12/28 0:01 through 2023/01/04 23:59 (inclusive) in the ET timezone has a final \u201cHigh\u201d price of 17000.00 or higher. Otherwise, this market will resolve to \"No\". \n\nThe final relevant candle for this market will be the 1 minute BTC/USDT candle titled \"2023/01/04 23:59\" in the ET timezone. The resolution source for this market is https://www.binance.com, specifically the BTC/USDT \u201cHigh\u201d prices currently available at https://www.binance.com/en/trade/BTC_USDT?_from=markets&theme=dark&type=spot with \u201c1m\u201d and \u201cOriginal\u201d selected on the top bar. \n\nTo see the \u201cHigh\u201d prices, mouse over particular candles and look at the value after \u201cHigh: \u201d at the top of the chart. \n\nThe API url https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1m with relevant startDate and endDate parameters may be used in the event that the chart is unavailable. Please note that this market is about the price according to Binance BTC/USDT, not the price according to other sources or spot markets.\n\n",
+              "market_slug": "will-btc-reach-17000-by-january-4",
+              "end_date_iso": "2023-01-04T00:00:00Z",
+              "game_start_time": null,
+              "seconds_delay": 0,
+              "fpmm": "0x44Bb62FFBD6515e590f99E5ba46E3145291E72e3",
+              "maker_base_fee": 0,
+              "taker_base_fee": 0,
+              "notifications_enabled": true,
+              "neg_risk": false,
+              "neg_risk_market_id": "",
+              "neg_risk_request_id": "",
+              "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bitcoin.png",
+              "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bitcoin.png",
+              "rewards": {
+                "rates": null,
+                "min_size": 0,
+                "max_spread": 0
+              },
+              "is_50_50_outcome": false,
+              "tokens": [
+                {
+                  "token_id": "28466589081327985675463181242090623680658034183364727144949943670485864325011",
+                  "outcome": "Yes",
+                  "price": 0,
+                  "winner": false
+                },
+                {
+                  "token_id": "95267669442780372155263053305492422286382725253653482969062045240052101826916",
+                  "outcome": "No",
+                  "price": 1,
+                  "winner": false
+                }
+              ],
+              "tags": [
+                "All"
+              ]
+            },
+            {
+              "enable_order_book": false,
+              "active": true,
+              "closed": true,
+              "archived": false,
+              "accepting_orders": false,
+              "accepting_order_timestamp": null,
+              "minimum_order_size": 15,
+              "minimum_tick_size": 0.01,
+              "condition_id": "0xa5b976b27bbb180578d715c698581a522be28d6ac38bed8271e000eebe4aacec",
+              "question_id": "0xfbde1f7e9b57bc45f0bf0d71f6bd2e1dae2525b8b8c6897e7cd0030a380bb716",
+              "question": "Balaji Bet: BTC > $1m USD on June 17?",
+              "description": "This market will resolve to \"Yes\" if 1 BTC is worth more than $1,000,000.00 USD at any time on June 17, 2023 (ET timezone). Otherwise, this market will resolve to \"No\".\n\nThe resolution source for this market will be consensus of highly liquid price sources for BTC. \n\nThis market will not resolve until June 17 has passed.\n",
+              "market_slug": "balaji-bet-btc-1m-usd-on-june-17",
+              "end_date_iso": "2023-06-17T00:00:00Z",
+              "game_start_time": null,
+              "seconds_delay": 0,
+              "fpmm": "0x6622573c697f27Cac29B0a5efbaF09769B203987",
+              "maker_base_fee": 0,
+              "taker_base_fee": 0,
+              "notifications_enabled": true,
+              "neg_risk": false,
+              "neg_risk_market_id": "",
+              "neg_risk_request_id": "",
+              "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/balaji.png",
+              "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/balaji.png",
+              "rewards": {
+                "rates": null,
+                "min_size": 0,
+                "max_spread": 0
+              },
+              "is_50_50_outcome": false,
+              "tokens": [
+                {
+                  "token_id": "45119942360613501276448871752367029683792848982091072277626429752448277797800",
+                  "outcome": "Yes",
+                  "price": 0,
+                  "winner": false
+                },
+                {
+                  "token_id": "36150780445770257274225588631095507073871572529581834922206409083335892866528",
+                  "outcome": "No",
+                  "price": 1,
+                  "winner": true
+                }
+              ],
+              "tags": [
+                "All"
+              ]
+            },
+            {
+              "enable_order_book": false,
+              "active": true,
+              "closed": true,
+              "archived": false,
+              "accepting_orders": false,
+              "accepting_order_timestamp": null,
+              "minimum_order_size": 15,
+              "minimum_tick_size": 0.01,
+              "condition_id": "0x3704e455d80f900b45a17e3fe5ee1dbdfb936a915a78d8eae0a32b6cd2803c71",
+              "question_id": "0xa2235d1b30820be525c43b66be34b33b89843e2a652e7bb0fa63c224b7aecc70",
+              "question": "Will $BTC hit $20k or $30k first?",
+              "description": "This market will immediately resolve to \u201c20k\u201d if any Coinbase 1 minute candle for BTC-USD between 23 Feb '23 12:00 and 31 Dec '23 23:59 (inclusive) in the ET timezone has a final \u201cLow\u201d price of 20,000.00 or lower before $BTC hits $30,000.\n\nThis market will immediately resolve to \u201c30k\u201d if any Coinbase 1 minute candle for BTC-USD between 23 Feb '23 12:00 and 31 Dec '23 23:59 (inclusive) in the ET timezone has a final \u201cHigh\u201d price of 30,000.00 or higher before $BTC hits $20,000.\n\nIf no Coinbase 1 minute candle for BTC-USD between 23 Feb '23 12:00 and 31 Dec '23 23:59 (inclusive) in the ET timezone has a final \"Low\" price of 20,000.00 or lower, or \"High\" price of 30,000.00 or higher, this market will resolve 50-50.\n\nThe resolution source for this market is\u00a0https://www.coinbase.com/, specifically the BTC-USD \u201cLow\" and \"High\" prices currently available at\u00a0https://www.coinbase.com/advanced-trade/BTC-USD with \u201c1m\u201d and \u201cCandles\u201d selected on the top bar.\n\nTo see the \u201cLow\u201d and \"High\" prices, mouse over particular candles and look at the respective values after \u201cL\u201d and \"H\" at the top of the chart.\n\nPlease note that this market is about the price according to Coinbase BTC-USD, not according to other sources or spot markets.",
+              "market_slug": "will-btc-hit-20k-or-30k-first",
+              "end_date_iso": "2023-12-31T00:00:00Z",
+              "game_start_time": null,
+              "seconds_delay": 0,
+              "fpmm": "0xFC7AEc5354a67BDAcA8493c4151E2d0737D03C4a",
+              "maker_base_fee": 0,
+              "taker_base_fee": 0,
+              "notifications_enabled": true,
+              "neg_risk": false,
+              "neg_risk_market_id": "",
+              "neg_risk_request_id": "",
+              "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bitcoin.png",
+              "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bitcoin.png",
+              "rewards": {
+                "rates": null,
+                "min_size": 0,
+                "max_spread": 0
+              },
+              "is_50_50_outcome": false,
+              "tokens": [
+                {
+                  "token_id": "4028224092821188928958555620116522951297707974843567762547457254712292542737",
+                  "outcome": "20k",
+                  "price": 1,
+                  "winner": true
+                },
+                {
+                  "token_id": "81235363370034936434907368914054266040451373014285384397375707382563687203161",
+                  "outcome": "30k",
+                  "price": 0,
+                  "winner": false
+                }
+              ],
+              "tags": [
+                "All"
+              ]
+            },
+            {
+              "enable_order_book": false,
+              "active": false,
+              "closed": false,
+              "archived": true,
+              "accepting_orders": false,
+              "accepting_order_timestamp": null,
+              "minimum_order_size": 15,
+              "minimum_tick_size": 0.01,
+              "condition_id": "0xf6143ad3ce7b1f3044a0e20f2d992132f0c7b172c5caf3edd69d53e8b4a6e7b0",
+              "question_id": "0xa900bf2ada6ac60d324488464b0cbed4db096d4a3773a569836fbe02de1e62bc",
+              "question": "Will $BTC reach $1700 by January 4?",
+              "description": "This market will resolve to \u201cYes\u201d if any Binance 1 minute BTC/USDT candle titled with a date between 2022/12/28 0:01 through 2023/01/04 23:59 (inclusive) in the ET timezone has a final \u201cHigh\u201d price of 1700.00 or higher. Otherwise, this market will resolve to \"No\". \n\nThe final relevant candle for this market will be the 1 minute BTC/USDT candle titled \"2023/01/04 23:59\" in the ET timezone. The resolution source for this market is https://www.binance.com, specifically the BTC/USDT \u201cHigh\u201d prices currently available at https://www.binance.com/en/trade/BTC_USDT?_from=markets&theme=dark&type=spot with \u201c1m\u201d and \u201cOriginal\u201d selected on the top bar. \n\nTo see the \u201cHigh\u201d prices, mouse over particular candles and look at the value after \u201cHigh: \u201d at the top of the chart. \n\nThe API url https://api.binance.com/api/v3/klines?symbol=BTCUSDT&interval=1m with relevant startDate and endDate parameters may be used in the event that the chart is unavailable. Please note that this market is about the price according to Binance BTC/USDT, not the price according to other sources or spot markets.\n\n",
+              "market_slug": "will-btc-reach-1700-by-january-4",
+              "end_date_iso": "2023-01-04T00:00:00Z",
+              "game_start_time": null,
+              "seconds_delay": 0,
+              "fpmm": "0x0B65001f73c889e9531D109265E150392328D99F",
+              "maker_base_fee": 0,
+              "taker_base_fee": 0,
+              "notifications_enabled": true,
+              "neg_risk": false,
+              "neg_risk_market_id": "",
+              "neg_risk_request_id": "",
+              "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bitcoin.png",
+              "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bitcoin.png",
+              "rewards": {
+                "rates": null,
+                "min_size": 0,
+                "max_spread": 0
+              },
+              "is_50_50_outcome": false,
+              "tokens": [
+                {
+                  "token_id": "55059040236764057853596698997028131932925913975583655858572439429457181618224",
+                  "outcome": "Yes",
+                  "price": 0.5,
+                  "winner": false
+                },
+                {
+                  "token_id": "98926605073700445184449221251394057480734999487473736461568304885330975610140",
+                  "outcome": "No",
+                  "price": 0.5,
+                  "winner": false
+                }
+              ],
+              "tags": [
+                "All"
+              ]
+            }
+          ],
+          "total_found": 4
+        },
+        "kalshi": {
+          "asset": "BTC",
+          "markets": [],
+          "error": "HTTP 401"
+        },
+        "implied_probability": 0.5,
+        "summary": "BTC \u2014 Found 4 Polymarket markets and 0 Kalshi markets. Polymarket best implied probability: 50.0% \u2192 market leans DOWN."
+      },
+      "ohlcv_bars_fetched": {
+        "5m": 1000,
+        "15m": 333
+      },
+      "prediction": {
+        "5m": {
+          "direction": "DOWN",
+          "confidence": 0.7654,
+          "signal": -0.294939,
+          "short_momentum": -0.000509,
+          "long_momentum": 7.1e-05,
+          "volatility": 0.001135,
+          "bars_used": 50,
+          "low_confidence_warning": false,
+          "asset": "BTC"
+        },
+        "15m": {
+          "direction": "DOWN",
+          "confidence": 0.5815,
+          "signal": -0.090605,
+          "short_momentum": -0.000334,
+          "long_momentum": 0.000339,
+          "volatility": 0.001456,
+          "bars_used": 50
+        },
+        "arbitrage_signal": false,
+        "arbitrage_note": "No cross-timeframe divergence detected",
+        "primary": {
+          "direction": "DOWN",
+          "confidence": 0.7654,
+          "signal": -0.294939,
+          "short_momentum": -0.000509,
+          "long_momentum": 7.1e-05,
+          "volatility": 0.001135,
+          "bars_used": 50,
+          "low_confidence_warning": false,
+          "asset": "BTC"
+        }
+      },
+      "risk": {
+        "asset": "BTC",
+        "direction": "DOWN",
+        "confidence": 0.7654,
+        "win_payout": 1.0,
+        "kelly": {
+          "win_probability": 0.7654,
+          "kelly_fraction": 0.5308,
+          "half_kelly_fraction": 0.2654,
+          "recommended_fraction": 0.1,
+          "recommended_pct": "10.0%",
+          "recommendation": "Bet 10.0% of bankroll"
+        },
+        "expected_value": 0.5308,
+        "arbitrage_signal": false,
+        "arbitrage_note": null,
+        "action": "DOWN BTC \u2014 Bet 10.0% of bankroll | EV=+0.5308"
+      }
+    },
+    {
+      "asset": "ETH",
+      "timestamp": "2026-04-21T15:04:18.470218",
+      "market_summary": {
+        "asset": "ETH",
+        "polymarket": {
+          "asset": "ETH",
+          "markets": [
+            {
+              "enable_order_book": false,
+              "active": true,
+              "closed": true,
+              "archived": false,
+              "accepting_orders": false,
+              "accepting_order_timestamp": null,
+              "minimum_order_size": 15,
+              "minimum_tick_size": 0.01,
+              "condition_id": "0x8091de39d7661f0515a50b16220bb081cbee44b463ebeae8300e8784f485e3d2",
+              "question_id": "0x5d8c2275d6b1fbb286a314a763a607334113a38c47298c98a1ca0d675aa63919",
+              "question": "Will Joe Biden's FiveThirtyEight approval rating be 43.3% or higher on January 7?",
+              "description": "This market will resolve to \u201cYes\u201d if Joe Biden's approval rating as reported by FiveThirtyEight will be greater than or equal to 43.3% for the day of January 7, 2023. Otherwise, this market will resolve to \u201cNo\u201d. \n\nThe resolution source will be FiveThirtyEight's approval rating poll aggregator, https://projects.fivethirtyeight.com/biden-approval-rating/, specifically the approval rating indicated by the green trend line for the resolution date. Changes in the methodology by which FiveThirtyEight calculates the approval rating will have no bearing on the resolution of this market. \n\nThe resolution data for January 7 will be checked on January 8, 2023 (12 PM ET), and can only resolve after the check. If for any reason (e.g. error, no data taken, etc.) there is no data point for January 7 on the check time, the market will be checked 6 hours later, at 6 PM ET on January 8, 2023. If there is still no data point, this market will resolve according to the nearest previous available approval rating to January 7. \n\nIf Joe Biden is not President on the resolution date, this market will resolve according to the nearest previous available approval rating to January 7. Please note the resolution source reports the rating value to only one decimal point (e.g. 42.8%, 33.9%, etc). Thus, this is the level of precision that will be used when resolving the market.",
+              "market_slug": "will-joe-bidens-fivethirtyeight-approval-rating-be-43pt3-or-higher-on-january-7",
+              "end_date_iso": "2023-01-07T00:00:00Z",
+              "game_start_time": null,
+              "seconds_delay": 0,
+              "fpmm": "0x83a103C387c35D59F1C554a70cFA1FD14594E331",
+              "maker_base_fee": 0,
+              "taker_base_fee": 0,
+              "notifications_enabled": true,
+              "neg_risk": false,
+              "neg_risk_market_id": "",
+              "neg_risk_request_id": "",
+              "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/Bidenapproval.png",
+              "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/Bidenapproval.png",
+              "rewards": {
+                "rates": null,
+                "min_size": 0,
+                "max_spread": 0
+              },
+              "is_50_50_outcome": false,
+              "tokens": [
+                {
+                  "token_id": "94262922367210385233982420462416184637643780054008225571292603466430454892502",
+                  "outcome": "Yes",
+                  "price": 1,
+                  "winner": false
+                },
+                {
+                  "token_id": "38925696662641898797488764175643457067310003293205997611488635008176437882327",
+                  "outcome": "No",
+                  "price": 0,
+                  "winner": false
+                }
+              ],
+              "tags": [
+                "All"
+              ]
+            },
+            {
+              "enable_order_book": false,
+              "active": true,
+              "closed": true,
+              "archived": false,
+              "accepting_orders": false,
+              "accepting_order_timestamp": null,
+              "minimum_order_size": 15,
+              "minimum_tick_size": 0.01,
+              "condition_id": "0x1b972f0777adbec4801007ed3552b8aba5dcd0e942160e06f1cc68d3cf87eb53",
+              "question_id": "0xf0955b364f68007453285ca33a90f5287f0db656b2e87f32428d28343ac260ae",
+              "question": "Will the price of $ETH be above $1700 on February 17 (11:59 PM ET)?",
+              "description": "This market will resolve to \u201cYes\u201d if the Binance 1 minute candle for ETH/USDT titled 2023/02/17 23:59 in the ET timezone (referring to 11:59 PM ET) has a final \u201cClose\u201d price of 1700.01 or higher, or to \u201cNo\u201d otherwise.\n\nThe resolution source for this market is https://www.binance.com, specifically the ETH/USDT \u201cClose\u201d prices currently available at https://www.binance.com/en/trade/ETH_USDT?_from=markets&theme=dark&type=spot with \u201c1m\u201d and \u201cOriginal\u201d selected on the top bar.\n\nTo see the \u201cClose\u201d prices, mouse over particular candles and look at the value after \u201cClose:\u201d at the top of the chart. The API url https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1m with relevant startDate and endDate parameters may be used in the event that the chart is unavailable.\n\nPlease note that this market is about the price according to Binance ETH/USDT, not according to other sources or spot markets.",
+              "market_slug": "will-the-price-of-eth-be-above-1700-on-february-17-1159-pm-et",
+              "end_date_iso": "2023-02-17T00:00:00Z",
+              "game_start_time": null,
+              "seconds_delay": 0,
+              "fpmm": "0x977212793f611E07cf960643E02FC96e5D06dc2c",
+              "maker_base_fee": 0,
+              "taker_base_fee": 0,
+              "notifications_enabled": true,
+              "neg_risk": false,
+              "neg_risk_market_id": "",
+              "neg_risk_request_id": "",
+              "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/eth+icon.png",
+              "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/eth+icon.png",
+              "rewards": {
+                "rates": null,
+                "min_size": 0,
+                "max_spread": 0
+              },
+              "is_50_50_outcome": false,
+              "tokens": [
+                {
+                  "token_id": "57062989184739760647440405657866561610125609533309064522609506416436434406410",
+                  "outcome": "Yes",
+                  "price": 0.0005,
+                  "winner": false
+                },
+                {
+                  "token_id": "41436322402887255500194655841274825792580455698257531389988304244938400072358",
+                  "outcome": "No",
+                  "price": 0.9995,
+                  "winner": false
+                }
+              ],
+              "tags": [
+                "All"
+              ]
+            },
+            {
+              "enable_order_book": false,
+              "active": true,
+              "closed": true,
+              "archived": false,
+              "accepting_orders": false,
+              "accepting_order_timestamp": null,
+              "minimum_order_size": 15,
+              "minimum_tick_size": 0.01,
+              "condition_id": "0xa91ac76a017a9a72f6bc6119a0a2b076efff8bb8df372824df647ed453e6603a",
+              "question_id": "0x4a334b19054552d38a4f829ffeebb25bf8e19d9d8f9cf27a6e6e144390f4cd0b",
+              "question": "Will $ETH be above $1550 on March 17?",
+              "description": "This market will resolve to \u201cYes\u201d if the Binance 1 minute candle for ETH/USDT titled 2023/03/17 03:00 in the ET timezone (referring to 3:00 AM ET) has a final \u201cClose\u201d price of 1550.01 or higher, or to \u201cNo\u201d otherwise.\n\nThe resolution source for this market is https://www.binance.com, specifically the ETH/USDT \u201cClose\u201d prices currently available at https://www.binance.com/en/trade/ETH_USDT?_from=markets&theme=dark&type=spot with \u201c1m\u201d and \u201cOriginal\u201d selected on the top bar.\n\nTo see the \u201cClose\u201d prices, mouse over particular candles and look at the value after \u201cClose:\u201d at the top of the chart. The API url https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1m with relevant startDate and endDate parameters may be used in the event that the chart is unavailable.\n\nPlease note that this market is about the price according to Binance ETH/USDT, not according to other sources or spot markets.",
+              "market_slug": "will-eth-be-above-1550-on-march-17",
+              "end_date_iso": "2023-03-17T00:00:00Z",
+              "game_start_time": null,
+              "seconds_delay": 0,
+              "fpmm": "0xe000e26Fd45415C1A3cbe9798B7BBB547f40116B",
+              "maker_base_fee": 0,
+              "taker_base_fee": 0,
+              "notifications_enabled": true,
+              "neg_risk": false,
+              "neg_risk_market_id": "",
+              "neg_risk_request_id": "",
+              "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/eth+icon.png",
+              "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/eth+icon.png",
+              "rewards": {
+                "rates": null,
+                "min_size": 0,
+                "max_spread": 0
+              },
+              "is_50_50_outcome": false,
+              "tokens": [
+                {
+                  "token_id": "89738583910397120280446895746895836583396835093159804858334316079300303319040",
+                  "outcome": "Yes",
+                  "price": 1,
+                  "winner": true
+                },
+                {
+                  "token_id": "72082686388748662600276212952466724663880649269738569334863431575146781448594",
+                  "outcome": "No",
+                  "price": 0,
+                  "winner": false
+                }
+              ],
+              "tags": [
+                "All"
+              ]
+            },
+            {
+              "enable_order_book": false,
+              "active": true,
+              "closed": true,
+              "archived": false,
+              "accepting_orders": false,
+              "accepting_order_timestamp": null,
+              "minimum_order_size": 15,
+              "minimum_tick_size": 0.01,
+              "condition_id": "0xdece0a6eda3a1272aa88324e927f956903e28ea1b66f8dccbe9561e09356493a",
+              "question_id": "0x49f9ebfa1c1f73449ec0ea30c261fce99ec8f1fd2c8a840d1550dae06e0815a6",
+              "question": "Will the price of $ETH be above $1200 on December 30?",
+              "description": "This market will resolve to \u201cYes\u201d if the Binance 1 minute candle for ETH/USDT titled 2022/12/30 12:00 in the ET timezone (referring to 12:00 PM ET) has a final \u201cClose\u201d price of 1200.01 or higher, or to \u201cNo\u201d otherwise. \n\nThe resolution source for this market is https://www.binance.com, specifically the ETH/USDT \u201cClose\u201d prices currently available at https://www.binance.com/en/trade/ETH_USDT?_from=markets&theme=dark&type=spot with \u201c1m\u201d and \u201cOriginal\u201d selected on the top bar. \n\nTo see the \u201cClose\u201d prices, mouse over particular candles and look at the value after \u201cClose:\u201d at the top of the chart. The API url https://api.binance.com/api/v3/klines?symbol=ETHUSDT&interval=1m with relevant startDate and endDate parameters may be used in the event that the chart is unavailable. \n\nPlease note that this market is about the price according to Binance ETH/USDT, not others sources or spot markets.",
+              "market_slug": "will-the-price-of-eth-be-above-1200-on-december-30",
+              "end_date_iso": "2022-12-30T00:00:00Z",
+              "game_start_time": null,
+              "seconds_delay": 0,
+              "fpmm": "0x515bDA32Ee4E2A6Ffec5B92473465B2C331409Ac",
+              "maker_base_fee": 0,
+              "taker_base_fee": 0,
+              "notifications_enabled": true,
+              "neg_risk": false,
+              "neg_risk_market_id": "",
+              "neg_risk_request_id": "",
+              "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/eth+icon.png",
+              "image": "https://polymarket-upload.s3.us-east-2.amazonaws.com/eth+icon.png",
+              "rewards": {
+                "rates": null,
+                "min_size": 0,
+                "max_spread": 0
+              },
+              "is_50_50_outcome": false,
+              "tokens": [
+                {
+                  "token_id": "84711692666157930354893513911636014441723699818914499644583135188054036099098",
+                  "outcome": "Yes",
+                  "price": 0,
+                  "winner": false
+                },
+                {
+                  "token_id": "37284478987169494923040397029201085027427289257902806965780305394982705766246",
+                  "outcome": "No",
+                  "price": 1,
+                  "winner": false
+                }
+              ],
+              "tags": [
+                "All"
+              ]
+            },
+            {
+              "enable_order_book": false,
+              "active": true,
+              "closed": true,
+              "archived": false,
+              "accepting_orders": false,
+              "accepting_order_timestamp": null,
+              "minimum_order_size": 15,
+              "minimum_tick_size": 0.01,
+              "condition_id": "0xf6024bc223ad8abf050aace07fd3a69328f1bba63c3ffc98062d2420a2030a1e",
+              "question_id": "0x463a64bcd15d94d5df2d8e1a5a9abbea3f57ba986881cd734c7217581c8ddeb0",
+              "question": "Will the Ethereum Merge (EIP-3675) occur by October 1, 2022?",
+              "description": "This is a market on if The Merge will occur on the Ethereum mainnet as described in EIP-3675 (or any successor to EIP-3675) by the resolution time, October 1 2022, 11:59:59 PM ET, transitioning the Ethereum blockchain to proof-of-stake.\n\nIf the first proof-of-stake block (defined in EIP-3675 as TRANSITION_BLOCK) is produced before the resolution time, this market will resolve to \"Yes\". \nOtherwise, the market will resolve \"No\".\n\nNote, that forks to the execution layer and the consensus layer implementing EIP-3675 will not have any impact on the market resolution. Only the actual occurrence of The Merge will be considered.",
+              "market_slug": "will-the-ethereum-merge-eip-3675-occur-by-october-1-2022",
+              "end_date_iso": "2022-10-01T00:00:00Z",
+              "game_start_time": "2022-10-01T07:00:00Z",
+              "seconds_delay": 0,
+              "fpmm": "0x0199f0413B9a4B1f3db7b953fF601Ac88E5c9be0",
+              "maker_base_fee": 0,
+              "taker_base_fee": 0,
+              "notifications_enabled": true,
+              "neg_risk": false,
+              "neg_risk_market_id": "",
+              "neg_risk_request_id": "",
+              "icon": "",
+              "image": "",
+              "rewards": {
+                "rates": null,
+                "min_size": 0,
+                "max_spread": 0
+              },
+              "is_50_50_outcome": false,
+              "tokens": [
+                {
+                  "token_id": "14407587149607649930148663675171068494265586931331224774282394443605115689380",
+                  "outcome": "Yes",
+                  "price": 1,
+                  "winner": false
+                },
+                {
+                  "token_id": "106312965725639963065012626780222052162524895406036255682293803400206316447336",
+                  "outcome": "No",
+                  "price": 0,
+                  "winner": false
+                }
+              ],
+              "tags": [
+                "All"
+              ]
+            }
+          ],
+          "total_found": 17
+        },
+        "kalshi": {
+          "asset": "ETH",
+          "markets": [],
+          "error": "HTTP 401"
+        },
+        "implied_probability": 0.5,
+        "summary": "ETH \u2014 Found 5 Polymarket markets and 0 Kalshi markets. Polymarket best implied probability: 50.0% \u2192 market leans DOWN."
+      },
+      "ohlcv_bars_fetched": {
+        "5m": 1000,
+        "15m": 333
+      },
+      "prediction": {
+        "5m": {
+          "direction": "DOWN",
+          "confidence": 0.5495,
+          "signal": -0.055034,
+          "short_momentum": -0.000104,
+          "long_momentum": 4e-05,
+          "volatility": 0.001097,
+          "bars_used": 50,
+          "low_confidence_warning": true,
+          "asset": "ETH"
+        },
+        "15m": {
+          "direction": "DOWN",
+          "confidence": 0.5026,
+          "signal": -0.002914,
+          "short_momentum": -0.00012,
+          "long_momentum": 0.000263,
+          "volatility": 0.001716,
+          "bars_used": 50
+        },
+        "arbitrage_signal": false,
+        "arbitrage_note": "No cross-timeframe divergence detected",
+        "primary": {
+          "direction": "DOWN",
+          "confidence": 0.5495,
+          "signal": -0.055034,
+          "short_momentum": -0.000104,
+          "long_momentum": 4e-05,
+          "volatility": 0.001097,
+          "bars_used": 50,
+          "low_confidence_warning": true,
+          "asset": "ETH"
+        }
+      },
+      "risk": {
+        "asset": "ETH",
+        "direction": "DOWN",
+        "confidence": 0.5495,
+        "kelly": {
+          "recommendation": "PASS \u2014 insufficient confidence"
+        },
+        "expected_value": 0.0,
+        "action": "PASS ETH \u2014 confidence 54.9% below threshold"
+      }
+    }
+  ],
+  "feedback": "=== TRADE RECOMMENDATIONS (rule-based fallback) ===\n\nASSET: BTC\nRECOMMENDATION: DOWN\nPOSITION SIZE: 10.0%\nRATIONALE: confidence=76.5%, EV=+0.5308\nWARNINGS: None\n---\nASSET: ETH\nRECOMMENDATION: PASS\nPOSITION SIZE: 0%\nRATIONALE: confidence=54.9%, EV=+0.0000\nWARNINGS: Low confidence\n---"
+}
